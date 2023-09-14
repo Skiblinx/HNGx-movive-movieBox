@@ -72,7 +72,7 @@ const Header = ({ setSearch, search, loading, setLoading }) => {
             <form onSubmit={handleSubmit}>
 
               <input
-                className="Search rounded text-white border-white px-2 w-64 border-b-2 bg-opacity-50 bg-gray-700 outline-none"
+                className="Search rounded text-white border-white px-2 w-64 focus:outline-solid bg-opacity-50 bg-slate-400/70 outline-none"
                 type="search"
                 placeholder="Search a movie..."
                 value={query}
