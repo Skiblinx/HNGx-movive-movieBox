@@ -33,7 +33,7 @@ const Detail = () => {
   });
 
   return (
-    // deciding where to show the loading animation orthe detail
+    // deciding where and when to show the loading animation and detail
     <>
       {movie === null ? (
         <div className="loading mt-52 mx-auto"></div>
